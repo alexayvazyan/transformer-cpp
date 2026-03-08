@@ -1,0 +1,4 @@
+build/
+*.dSYM/
+*.o
+*.d

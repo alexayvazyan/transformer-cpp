@@ -1,0 +1,13 @@
+xgboost
+    train data test data
+    buildtrees(train data) -> trees
+    usetrees(test data, trees) -> rmse
+    return trees, rmse
+
+buildtrees(traindata) -> trees
+    treelist {}
+    buildsingletree(data)
+    append single tree to tree list
+    calculate residuals
+    buildtrees(residuals)
+    return treelist
