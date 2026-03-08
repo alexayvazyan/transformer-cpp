@@ -2,3 +2,4 @@ build/
 *.dSYM/
 *.o
 *.d
+*.warc.wet.gz
